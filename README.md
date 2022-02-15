@@ -1,9 +1,9 @@
 # nuevoborrar
 
 # mermaid
-Include diagrams in your Markdown files with Mermaid
-https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/
+[Include diagrams in your Markdown files with Mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)   
 
+[Mermaid website](https://mermaid-js.github.io/mermaid/) 
 
 ```mermaid
   graph TD;
@@ -23,4 +23,29 @@ https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/
     E -- Yes --> F[Etc...];
     E -- No --> G[Etc...];
 
+```
+
+```mermaid
+    sequenceDiagram
+
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```    
+
+```mermaid
+    pie
+
+    title Key elements in Product X
+    "Calcium" : 42.96
+    "Potassium" : 50.05
+    "Magnesium" : 10.01
+    "Iron" :  5
 ```
