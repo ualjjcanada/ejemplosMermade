@@ -76,5 +76,11 @@ Con enlaces incluidos
     subgraph main
     7
     end;
+    subgraph dev
+    6
+    end;
+    subgraph HEAD
+    7
+    end;
     
 ```
