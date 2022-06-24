@@ -63,3 +63,10 @@ Con enlaces incluidos
     click C href "http://www.github.com" _blank
     click D href "http://www.github.com" "Open this in a new tab" _blank
 ```
+
+```mermaid
+    flowchart RL;
+    A-->B;
+    B-->C;
+    C<--D;
+```
