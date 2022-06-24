@@ -66,7 +66,12 @@ Con enlaces incluidos
 
 ```mermaid
     flowchart RL;
-    A-->B;
-    B-->C;
-    C-->D;
+    2-->1;
+    3-->2;
+    4-->3;
+    5-->3;
+    6-->5;
+    7-->6;
+    7-->4;
+    
 ```
