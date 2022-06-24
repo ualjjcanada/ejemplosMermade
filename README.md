@@ -68,5 +68,5 @@ Con enlaces incluidos
     flowchart RL;
     A-->B;
     B-->C;
-    C<--D;
+    C-->D;
 ```
