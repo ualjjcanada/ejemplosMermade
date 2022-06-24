@@ -82,5 +82,6 @@ Con enlaces incluidos
     subgraph HEAD
     7
     end;
+    HEAD -.-> 7
     
 ```
