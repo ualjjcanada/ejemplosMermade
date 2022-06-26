@@ -76,7 +76,7 @@ Con enlaces incluidos
     subgraph dev
     6
     end;
-    subgraph 
+    subgraph otro[" "]
       direction TB
       id1(HEAD) -.-> id1(main)
       id1(main) -.-> 7
