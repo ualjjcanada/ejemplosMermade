@@ -82,6 +82,7 @@ Con enlaces incluidos
     subgraph HEAD
     7
     end;
-    HEAD -.-> 7
+    id1(HEAD= -.-> 7
+    style id1 fill:#f9f,stroke:#333,stroke-width:1px
     
 ```
