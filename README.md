@@ -78,7 +78,8 @@ Con enlaces incluidos
     end;
     subgraph head
       direction TB
-      id1(HEAD) -.-> 7
+      id1(HEAD) -.-> id1(main)
+      id1(main) -.-> 7
       style id1 fill:#f9f,stroke:#333,stroke-width:1px
     end;
     
