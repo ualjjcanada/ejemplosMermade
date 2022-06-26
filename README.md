@@ -84,3 +84,29 @@ Con enlaces incluidos
     end;
     
 ```
+
+Git detailed graph as a flowchart:
+
+```mermaid
+   flowchart RL;
+    3((9817e0))-->1((e137e9));
+    4((ae3e0f))-->3;
+    id2(main) -.-> idHead
+    id1(HEAD) -.-> id2(main)
+    idHead((e2d9e6))-->6;
+    idHead-->4;
+    5((a1fbcd))-->3;
+    52((86d91f))--> 5
+    6((711a58))-->52;
+    subgraph branchDev[" "]
+      id3(dev) -.-> 6
+    end
+    
+    style id1 fill:#b8dbbc,stroke:#333,stroke-width:1px
+    style id2 fill:#f96,stroke:#333,stroke-width:1px
+    style id3 fill:#f90,stroke:#333,stroke-width:1px
+    style idHead fill:#b8dbbc
+    style branchDev fill:#fff,stroke:#333,stroke-width:0px
+    
+```
+    
