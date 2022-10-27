@@ -1,11 +1,11 @@
 # PlantUML
 
-@startuml firstDiagram
+```plantuml 
 
 Alice -> Bob: Hello
 Bob -> Alice: Hi!
 
-@enduml
+```
 
 # mermaid
 
